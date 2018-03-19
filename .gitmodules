@@ -1,0 +1,6 @@
+[submodule ".oh-my-zsh"]
+	path = .oh-my-zsh
+	url = https://github.com/robbyrussell/oh-my-zsh.git
+[submodule ".oh-my-zsh-config/themes/zsh-theme-powerlevel9k"]
+	path = .oh-my-zsh-config/themes/zsh-theme-powerlevel9k
+	url = https://github.com/bhilburn/powerlevel9k.git

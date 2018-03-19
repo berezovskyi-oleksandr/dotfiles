@@ -1,0 +1,17 @@
+[user]
+	name = Oleksandr Berezovskyi
+	email = berezovskyi.oleksandr@gmail.com
+	signingkey = AA4113F0
+[core]
+	autocrlf = input
+	editor = nano
+[branch]
+	autosetuprebase = always
+[alias]
+	squash = "!f(){ git reset --soft HEAD~${1} && git commit --edit -m\"$(git log --format=%B --reverse HEAD..HEAD@{1})\"; };f"
+[pull]
+	rebase = true
+[commit]
+	gpgsign = false
+[push]
+	default = current
